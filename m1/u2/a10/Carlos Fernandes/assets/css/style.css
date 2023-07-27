@@ -172,6 +172,7 @@ main {
   color: #474747;
 }
 .inserir__login {
+  background-color: #f8f8f8;
   width: 100%;
   color: transparent;
   line-height: 1.5rem;
@@ -183,6 +184,7 @@ main {
 }
 
 .inserir__senha {
+  background-color: #f8f8f8;
   width: 100%;
   color: transparent;
   line-height: 1.5rem;
