@@ -1,11 +1,17 @@
 const readline = require('readline')
-
 const leitor = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 })
 
-leitor.question('Qual módulo usamos para ler dados no node.js?\n', function (answer) {
-  console.log('\nSua resposta \'' + answer + '\' foi grava com sucesso numa variável inútil')
+function processamento (passos) {
+  let passo
+  for (passo = 0; passo < passos; passo++) {
+    console.log("Este é o passo: ", passo)
+  }
   leitor.close()
-})
+}
+
+leitor.question('Quantos passos você deseja dar?\n', processamento)
+
+
